@@ -4,17 +4,17 @@ import requests
 from selenium.webdriver.common.by import By
 import time
 
-# Your Chrome Path
+# give Your Chrome Path
 chrome_path = "YOUR_CHROME_DRIVER_PATH"
 
-# Your Google Form Link
+# give Your Google Form Link
 FORM = "YOUR_GOOGLE_FORM"
 # Three empty list to save Scraped data
 ADDRESS = []
 PRICE = []
 LINK = []
 
-# Header to add with requests.get
+# Header is used to add with requests.get
 HEADERS = {
     "User-Agent": "YOUR_USER_AGENT",
     "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
